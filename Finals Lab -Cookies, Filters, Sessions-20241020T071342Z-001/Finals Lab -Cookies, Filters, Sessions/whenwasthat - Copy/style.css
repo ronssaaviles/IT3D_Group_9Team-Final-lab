@@ -1,0 +1,61 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #3C3D37;
+    text-align: center;
+    font-size: 2.5em; /* Increase font size */
+}
+
+.container {
+    max-width: 800px; /* Increase maximum width */
+    margin: 40px auto; /* Center horizontally and add vertical margin */
+    padding: 40px; /* Increase padding */
+    background-color: #ECDFCC;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Increase shadow size */
+    border-radius: 12px; /* Increase border radius */
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.5em; /* Increase label font size */
+}
+
+input[type="date"] {
+    width: 100%; /* Full width for input */
+    padding: 15px; /* Increase padding */
+    margin-top: 10px; /* Increase top margin */
+    margin-bottom: 30px; /* Increase bottom margin */
+    border: 1px solid #ccc;
+    border-radius: 6px; /* Increase border radius */
+    font-size: 1.2em; /* Increase font size */
+    width:95%;
+}
+
+button, .btn {
+    background-color: #3C3D37;
+    color: #ECDFCC;
+    padding: 15px 25px; /* Increase padding */
+    border: none;
+    border-radius: 6px; /* Increase border radius */
+    cursor: pointer;
+    display: block; /* Block display for better styling */
+    width: 200px; /* Set a fixed width for the button */
+    margin: 0 auto; /* Center the button */
+    text-align: center; /* Center button text */
+    font-size: 1.2em; /* Increase button font size */
+}
+
+button:hover, .btn:hover {
+    background-color: #697565;
+}
+
+p {
+    text-align: center; /* Center align paragraph text */
+    font-size: 1.5em; /* Increase paragraph font size */
+}
